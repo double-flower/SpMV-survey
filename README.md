@@ -24,7 +24,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
   - [Sparse Compression Formats](#sparse-compression-formats)
   - [Auto-Tuning Based Algorithm](auto-tuning-based-algorithm)
   - [Machine-Learning Based Algorithm](machine-learning-based-algorithm)
-  - [Mixed Precisio Based Optimization](#mixed-Precisio-based-optimization)
+  - [Mixed Precision Based Optimization](#mixed-Precision-based-optimization)
   - [Architecture Oriented Optimization](#architecture-oriented-optimization)
 
   
@@ -68,7 +68,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 
 ### Performance Prediction
 
-## Mixed Precisio Based Optimization
+## Mixed Precision Based Optimization
 
 ### Mixed-Precision SpMV
 
