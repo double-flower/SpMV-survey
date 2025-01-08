@@ -38,6 +38,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
   
 ## Sparse Compression Formats
 ### Basic Compression Formats
+- **SPARSKIT: A Basic Took Kit for Sparse Matrix Computations, Version 2**. *Y. Saad, 1994* [[pdf](https://ntrs.nasa.gov/api/citations/19910023551/downloads/19910023551.pdf)]
 
 ### New Compression Formats
 
@@ -61,9 +62,10 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 
 
 ## Machine-Learning Based Algorithm
-- **Random walk with restart: fast solutions and applications**. *H. Tong, C. Faloutsos, and J. Pan.Knowl. Inf. Syst., vol. 14, no. 3, 2008* [[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9ebf0f5f36d1504e96d147f38e5b9e21d7d28825)]
 ### Format or Algorithm Selection
-
+- **Random walk with restart: fast solutions and applications**. *H. Tong, C. Faloutsos, and J. Pan.Knowl. Inf. Syst., vol. 14, no. 3, 2008* [[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9ebf0f5f36d1504e96d147f38e5b9e21d7d28825)]
+- **Authoritative sources in a hyperlinked environment**. *J. M. Kleinberg, J. ACM, vol. 46, no. 5, 1999* [[pdf](https://dl.acm.org/doi/pdf/10.1145/324133.324140)]
+- **Reprint of: The anatomy of a large-scale hypertextual web search engine**. *S. Brin and L. Page, Comput. Networks, vol. 56, no. 18, 2012* [[website](https://www.sciencedirect.com/science/article/abs/pii/S1389128612003611)]
 ### Parameter Prediction
 
 ### Performance Prediction
@@ -77,12 +79,18 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ## Architecture Oriented Optimization
 ### CPU
 - **Research on Performance Optimization for Sparse Matrix-Vector Multiplication in Multi/Many-core Architecture**. *Q. Wang, M. Li, J. Pang, and D. Zhu. in 2020 2nd International Conference on Information Technology and Computer Application (ITCA). IEEE, 2020* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9422076)]
+- **Data structures to vectorize cg algorithms for general sparsity patterns**. *G. V. Paolini and G. R. D. Brozolo, BIT Numerical Mathematics, vol. 29, no. 4, 1989* [[website](https://link.springer.com/article/10.1007/BF01932741)]
+- **Sparse matrix vector multiplication techniques on the IBM 3090 VF**. *A. Peters, Parallel Comput., vol. 17, no. 12, 1991* [[website](https://www.sciencedirect.com/science/article/abs/pii/S0167819105800079)]
 
 ### GPU
 #### Single GPU
 - **Fast sparse matrix-vector multiplication on gpus for graph applications**. *A. Ashari, N. Sedaghati, J. Eisenlohr, S. Parthasarathy, and P. Sadayappan. in International Conference for High Performance Computing, Networking, Storage and Analysis, SC 2014, New Orleans, LA, USA, November 16-21, 2014, T. Damkroger and J. J. Dongarra, Eds. IEEE Computer Society, 2014* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7013051)]
 - **Efficient pagerank and spmv computation on AMD gpus**. *T. Wu, B. Wang, Y. Shan, F. Yan, Y. Wang, and N. Xu. in 39th International Conference on Parallel Processing, ICPP 2010, San Diego, California, USA, 13-16 September 2010. IEEE Computer Society, 2010* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5599152)]
+- **Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors**. *N. Bell and M. Garland. in Proceedings of the ACM/IEEE Conference on High Performance Computing, SC, November 14-20, 2009, Portland, Oregon, USA. ACM, 2009* [[pdf](https://www.mgarland.org/files/papers/sc09-spmv-throughput.pdf)]
+- **Scan Primitives for GPU Computing**. *S. Sengupta, M. Harris, Y. Zhang, and J. D. Owens. in Proceedings of the 22nd ACM SIGGRAPH/EUROGRAPHICS Symposium on Graphics Hardware, ser. GH’07. Goslar, DEU: Eurographics Association, 2007* [[pdf](https://escholarship.org/content/qt8051p6nd/qt8051p6nd_noSplash_cdf4d7488f42df951707ca97e860123f.pdf)]
+  
 #### Multiple GPU
+- **Sparse Matrix Computations on Manycore GPU’s**. *M. Garland. in Proceedings of the 45th annual Design Automation Conference, ser. DAC ’08. New York, NY, USA: Association for Computing Machinery, Jun 2008* [[website](https://dl.acm.org/doi/abs/10.1145/1391469.1391473)]
 
 ### FPGA
 
