@@ -45,7 +45,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - **Sparse matrix vector multiplication techniques on the IBM 3090 VF**. *A. Peters. Parallel Computing, 1991* [[DOI](https://www.sciencedirect.com/science/article/abs/pii/S0167819105800079)]
 - **SPARSKIT: A Basic Took Kit for Sparse Matrix Computations, Version 2**. *Youcef Saad. 1994* [[pdf](https://www.finley-lab.com/files/gau19/exercises/exercise-sparskit/sparskit-v2.pdf)]
 - **Scan Primitives for GPU Computing**. *Shubhabrata Sengupta, Mark Harris, Yao Zhang, John D. Owens. in Proceedings of the 22nd ACM SIGGRAPH/EUROGRAPHICS Symposium, 2007* [[pdf](https://escholarship.org/content/qt8051p6nd/qt8051p6nd_noSplash_cdf4d7488f42df951707ca97e860123f.pdf)]
-- **Sparse Matrix Computations on Manycore GPU’s**. *Michael Garland. in Proceedings of the 45th annual Design Automation Conference, 2008* [[pdf]([https://dl.acm.org/doi/abs/10.1145/1391469.1391473](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4555771))]
+- **Sparse Matrix Computations on Manycore GPU’s**. *Michael Garland. in Proceedings of the 45th annual Design Automation Conference, 2008* [[pdf]([https://dl.acm.org/doi/abs/10.1145/1391469.1391473](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4555771)]
 
 ### New Compression Formats
 
