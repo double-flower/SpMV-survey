@@ -42,9 +42,11 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
   
 ## Sparse Compression Formats
 ### Basic Compression Formats
-- **PanguLU: A Scalable Regular Two-Dimensional Block-Cyclic Sparse Direct Solver on Distributed Heterogeneous Systems**. *Xu Fu, Bingbin Zhang, Tengcheng Wang, Wenhao Li, Yuechen Lu, Enxin Yi, Jianqi Zhao, Xiaohan Geng, Fangying Li, Jingwen Zhang, Zhou Jin, Weifeng Liu. in Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2023* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10485129)]
-- **GMRES: A generalized minimal residual algorithm for solving nonsymmetric linear systems**. *Y Saad, MH Schultz. SIAM Journal on scientific and statistical computing, 1986* [[pdf](https://www.stat.uchicago.edu/~lekheng/courses/324/saad-schultz.pdf)]
-- **SPARSKIT: A Basic Took Kit for Sparse Matrix Computations, Version 2**. *Y. Saad, 1994* [[pdf](https://ntrs.nasa.gov/api/citations/19910023551/downloads/19910023551.pdf)]
+- **Data structures to vectorize CG algorithms for general sparsity patterns**. *Gaia Valeria Paolini, Giuseppe Radicati Di Brozolo. BIT Numerical Mathematics(BIT Numer. Math), 1989* [[DOI](https://link.springer.com/article/10.1007/BF01932741)]
+- **Sparse matrix vector multiplication techniques on the IBM 3090 VF**. *A. Peters. Parallel Computing, 1991* [[DOI](https://www.sciencedirect.com/science/article/abs/pii/S0167819105800079)]
+- **SPARSKIT: A Basic Took Kit for Sparse Matrix Computations, Version 2**. *Youcef Saad. 1994* [[pdf](https://www.finley-lab.com/files/gau19/exercises/exercise-sparskit/sparskit-v2.pdf)]
+- **Scan Primitives for GPU Computing**. *Shubhabrata Sengupta, Mark Harris, Yao Zhang, John D. Owens. in Proceedings of the 22nd ACM SIGGRAPH/EUROGRAPHICS Symposium, 2007* [[pdf](https://escholarship.org/content/qt8051p6nd/qt8051p6nd_noSplash_cdf4d7488f42df951707ca97e860123f.pdf)]
+- **Sparse Matrix Computations on Manycore GPU’s**. *Michael Garland. in Proceedings of the 45th annual Design Automation Conference, 2008* [[pdf]([https://dl.acm.org/doi/abs/10.1145/1391469.1391473](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4555771))]
 
 ### New Compression Formats
 
@@ -85,17 +87,15 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ## Architecture Oriented Optimization
 ### CPU
 - **Data structures to vectorize cg algorithms for general sparsity patterns**. *G. V. Paolini and G. R. D. Brozolo, BIT Numerical Mathematics, vol. 29, no. 4, 1989* [[website](https://link.springer.com/article/10.1007/BF01932741)]
-- **Sparse matrix vector multiplication techniques on the IBM 3090 VF**. *A. Peters, Parallel Comput., vol. 17, no. 12, 1991* [[website](https://www.sciencedirect.com/science/article/abs/pii/S0167819105800079)]
+
 
 ### GPU
 #### Single GPU
 - **Fast sparse matrix-vector multiplication on gpus for graph applications**. *A. Ashari, N. Sedaghati, J. Eisenlohr, S. Parthasarathy, and P. Sadayappan. in International Conference for High Performance Computing, Networking, Storage and Analysis, SC 2014, New Orleans, LA, USA, November 16-21, 2014, T. Damkroger and J. J. Dongarra, Eds. IEEE Computer Society, 2014* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7013051)]
 - **Efficient pagerank and spmv computation on AMD gpus**. *T. Wu, B. Wang, Y. Shan, F. Yan, Y. Wang, and N. Xu. in 39th International Conference on Parallel Processing, ICPP 2010, San Diego, California, USA, 13-16 September 2010. IEEE Computer Society, 2010* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5599152)]
 - **Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors**. *N. Bell and M. Garland. in Proceedings of the ACM/IEEE Conference on High Performance Computing, SC, November 14-20, 2009, Portland, Oregon, USA. ACM, 2009* [[pdf](https://www.mgarland.org/files/papers/sc09-spmv-throughput.pdf)]
-- **Scan Primitives for GPU Computing**. *S. Sengupta, M. Harris, Y. Zhang, and J. D. Owens. in Proceedings of the 22nd ACM SIGGRAPH/EUROGRAPHICS Symposium on Graphics Hardware, ser. GH’07. Goslar, DEU: Eurographics Association, 2007* [[pdf](https://escholarship.org/content/qt8051p6nd/qt8051p6nd_noSplash_cdf4d7488f42df951707ca97e860123f.pdf)]
   
 #### Multiple GPU
-- **Sparse Matrix Computations on Manycore GPU’s**. *M. Garland. in Proceedings of the 45th annual Design Automation Conference, ser. DAC ’08. New York, NY, USA: Association for Computing Machinery, Jun 2008* [[website](https://dl.acm.org/doi/abs/10.1145/1391469.1391473)]
 
 ### FPGA
 
