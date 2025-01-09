@@ -42,6 +42,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
   
 ## Sparse Compression Formats
 ### Basic Compression Formats
+- **PanguLU: A Scalable Regular Two-Dimensional Block-Cyclic Sparse Direct Solver on Distributed Heterogeneous Systems**. *Xu Fu, Bingbin Zhang, Tengcheng Wang, Wenhao Li, Yuechen Lu, Enxin Yi, Jianqi Zhao, Xiaohan Geng, Fangying Li, Jingwen Zhang, Zhou Jin, Weifeng Liu. in Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2023* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10485129)]
 - **SPARSKIT: A Basic Took Kit for Sparse Matrix Computations, Version 2**. *Y. Saad, 1994* [[pdf](https://ntrs.nasa.gov/api/citations/19910023551/downloads/19910023551.pdf)]
 
 ### New Compression Formats
@@ -100,8 +101,6 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ### Processing in Memory
 
 ### Heterogeneous Platform
-- **PanguLU: A Scalable Regular Two-Dimensional Block-Cyclic Sparse Direct Solver on Distributed Heterogeneous Systems**. *X. Fu, B. Zhang, T. Wang, W. Li, Y. Lu, E. Yi, J. Zhao,
-X. Geng, F. Li, J. Zhang, Z. Jin, and W. Liu. in Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, SC 2023, Denver, CO, USA, November 12-17, 2023, D. Arnold, R. M. Badia, and K. M. Mohror, Eds. ACM, 2023* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10485129)]
 
 ### Distributed Platform
 
