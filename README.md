@@ -103,6 +103,16 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ## Auto-Tuning Based Algorithm
 
 ### Offline Auto-Tuning
+- **Optimizing Sparse Matrix Computations for Register Reuse in SPARSITY**. *Eun-Jin Im, Katherine Yelick, Proceedings of the International Conference on Computational Sciences-Part I (ICCS), 2001* [[pdf](https://link.springer.com/content/pdf/10.1007/3-540-45545-0_22.pdf)] ![](https://img.shields.io/badge/ICCS2001-orange)
+- **SPARSITY: Optimization Framework for Sparse Matrix Kernels**. *Eun-Jin Im, Katherine Yelick, Richard Vuduc, International Journal of High Performance Computing Applications (Int J High Perform Comput Appl), 2004* [[pdf](http://bebop.cs.berkeley.edu/pubs/im2004-sparsity.pdf)]
+- **Performance Optimizations and Bounds for Sparse Matrix-Vector Multiply**. *Rich Vuduc, James Demmel, Katherine A. Yelick, Shoaib Kamil, Rajesh Nishtala, Benjamin C. Lee, Supercomputing Conference (SC), 2002* [[DOI](https://ieeexplore.ieee.org/document/1592862)] ![](https://img.shields.io/badge/SC2002-orange)
+- **Automatic Performance Tuning of Sparse Matrix Kernels**. *Richard Wilson Vuduc,  A dissertation submitted for the degree of
+ Doctor of Philosophy, 2003* [[pdf](https://bebop.cs.berkeley.edu/pubs/vuduc2003-dissertation.pdf)] ![](https://img.shields.io/badge/arXiv2003-orange)
+- **OSKI: A Library of Automatically Tuned Sparse Matrix Kernels**. *Richard Vuduc, James W Demmel and Katherine A Yelick, SCIENTIFIC DISCOVERY THROUGH ADVANCED COMPUTING (SciDAC), 2005* [[pdf](https://bebop.cs.berkeley.edu/pubs/jop2005-SciDAC-OSKI.pdf)] ![](https://img.shields.io/badge/SciDAC2005-orange)
+- **When cache blocking of sparse matrix vector multiply works and why**. *Rajesh Nishtala, Richard W. Vuduc, James W. Demmel, Katherine A. Yelick, Applicable Algebra in Engineering, Communication and Computing (Appl. Algebra Eng. Commun. Comput), 2007* [[pdf](https://bebop.cs.berkeley.edu/pubs/nishtala2007-cb-spmv.pdf)]
+- **Automatic Performance Tuning of SpMV on GPGPU**. *Xianyi Zhang, Yunquan Zhang, Xiangzheng Sun, Fangfang Liu, Shengfei Liu, Yuxin Tang, Yucheng Li, Computer Systems Science and Engineering (Comput. Syst. Sci. Eng.), 2009* [[pdf](https://xianyi.github.io/paper/GOSpMV_2009.pdf)]
+- **Model-driven autotuning of sparse matrix-vector multiply on GPUs**. *JeeWhan Choi, Amik Singh, Richard W. Vuduc, ACM SIGPLAN Notices (ACM SIGPLAN Not), 2010* [[pdf](https://vuduc.org/pubs/choi2010-gpu-spmv.pdf)] ![](https://img.shields.io/badge/ACMSIGPLANNot2010-orange)
+- **A Performance Modeling and Optimization Analysis Tool for Sparse Matrix-Vector Multiplication on GPUs**. *Ping Guo, Liqiang Wang, Po Chen, IEEE Transactions on Parallel and Distributed Systems (IEEE Trans Parallel Distrib Syst), 2014* [[pdf](https://www.cs.ucf.edu/~lwang/papers/TPDS-2013.pdf)]
 
 ### Online Auto-Tuning
 
