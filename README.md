@@ -115,9 +115,10 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - **A Performance Modeling and Optimization Analysis Tool for Sparse Matrix-Vector Multiplication on GPUs**. *Ping Guo, Liqiang Wang, Po Chen, IEEE Transactions on Parallel and Distributed Systems (IEEE Trans Parallel Distrib Syst), 2014* [[pdf](https://www.cs.ucf.edu/~lwang/papers/TPDS-2013.pdf)]
 - **Performance Analysis and Optimization for SpMV on GPU Using Probabilistic Modeling**. *Kenli Li, Wangdong Yang, Keqin Li, IEEE Transactions on Parallel and Distributed Systems (IEEE Trans Parallel Distrib Syst), 2015* [[pdf](http://www.cs.newpaltz.edu/~lik/publications/Wangdong-Yang-IEEE-TPDS-2015.pdf)]
 - **Automatic Tuning of the Sparse Matrix Vector Product on GPUs Based on the ELLR-T Approach**. *Francisco Vázquez, José Jesús Fernández, Ester M. Garzón, Parallel Computing (Parallel Comput.), 2012* [[pdf](http://www.hpca.ual.es/~fvazquez/fp-content/attachs/ParCo2011.pdf)]
-- **Improving the Performance of the Sparse Matrix Vector Product with GPUs**. *Francisco V´azquez, Gloria Ortega, José Jesús Fernández, Ester M. Garzón, IEEE International Conference on Computer and Information Technology (CIT), 2010* [[pdf](https://www.researchgate.net/publication/221193414_Improving_the_Performance_of_the_Sparse_Matrix_Vector_Product_with_GPUs)]
-- 
-
+- **Improving the Performance of the Sparse Matrix Vector Product with GPUs**. *Francisco V´azquez, Gloria Ortega, José Jesús Fernández, Ester M. Garzón, IEEE International Conference on Computer and Information Technology (CIT), 2010* [[pdf](https://www.researchgate.net/publication/221193414_Improving_the_Performance_of_the_Sparse_Matrix_Vector_Product_with_GPUs)] ![](https://img.shields.io/badge/CIT2010-orange)
+- **Automatic tuning of sparse matrix-vector multiplication on multicore clusters**. *ShiGang Li, ChangJun Hu, JunChao Zhang, YunQuan Zhang, Science China Information Sciences (Sci. China Inf. Sci), 2015* [[DOI](https://link.springer.com/article/10.1007/s11432-014-5254-x)] 
+- **hpSpMV: A Heterogeneous Parallel Computing Scheme for SpMV on the Sunway TaihuLight Supercomputer**. *Yuedan Chen, Guoqing Xiao, Zheng Xiao, Wangdong Yang, IEEE International Conference on High Performance Computing and Communications (HPCC), 2019* [[DOI](https://ieeexplore.ieee.org/document/8855593)] ![](https://img.shields.io/badge/HPCC2019-orange)
+  
 ### Online Auto-Tuning
 
 
