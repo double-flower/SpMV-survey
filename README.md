@@ -120,7 +120,11 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - **hpSpMV: A Heterogeneous Parallel Computing Scheme for SpMV on the Sunway TaihuLight Supercomputer**. *Yuedan Chen, Guoqing Xiao, Zheng Xiao, Wangdong Yang, IEEE International Conference on High Performance Computing and Communications (HPCC), 2019* [[DOI](https://ieeexplore.ieee.org/document/8855593)] ![](https://img.shields.io/badge/HPCC2019-orange)
   
 ### Online Auto-Tuning
-
+- **Auto-Tuning CUDA Parameters for Sparse Matrix-Vector Multiplication on GPUs**. *Ping Guo, Liqiang Wang, International Conference on Computational and Information Sciences (ICCIS), 2010* [[pdf](https://www.cs.ucf.edu/~lwang/papers/ICCIS2010.pdf)] ![](https://img.shields.io/badge/ICCIS2010-orange)
+- **Efficient sparse matrix-vector multiplication on cache-based GPUs**. *István R eguly, Mike Giles, Innovative Parallel Computing (InPar), 2012* [[pdf](https://people.maths.ox.ac.uk/~gilesm/files/InPar_spMV.pdf)] ![](https://img.shields.io/badge/InPar2012-orange)
+- **Auto-tuning of Sparse Matrix-Vector Multiplication on Graphics Processors**. *Walid Abu-Sufah, Asma Abdel Karim, Supercomputing
+(ISC), 2013* [[pdf](https://link.springer.com/chapter/10.1007/978-3-642-38750-0_12)] ![](https://img.shields.io/badge/ISC2013-orange)
+- **An Effective Approach for Implementing Sparse Matrix-Vector Multiplication on Graphics Processing Units**. *Walid Abu-Sufah, Asma Abdel Karim, IEEE International Conference on High Performance Computing and Communications (HPCC), 2012* [[pdf](https://www.researchgate.net/publication/268800600_On_Implementing_Sparse_Matrix_Multi-Vector_Multiplication_on_GPUs)] ![](https://img.shields.io/badge/PHCC2012-orange)
 
 ## Machine-Learning Based Algorithm
 ### Format or Algorithm Selection
