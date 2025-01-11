@@ -113,6 +113,10 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - **Automatic Performance Tuning of SpMV on GPGPU**. *Xianyi Zhang, Yunquan Zhang, Xiangzheng Sun, Fangfang Liu, Shengfei Liu, Yuxin Tang, Yucheng Li, Computer Systems Science and Engineering (Comput. Syst. Sci. Eng.), 2009* [[pdf](https://xianyi.github.io/paper/GOSpMV_2009.pdf)]
 - **Model-driven autotuning of sparse matrix-vector multiply on GPUs**. *JeeWhan Choi, Amik Singh, Richard W. Vuduc, ACM SIGPLAN Notices (ACM SIGPLAN Not), 2010* [[pdf](https://vuduc.org/pubs/choi2010-gpu-spmv.pdf)] ![](https://img.shields.io/badge/ACMSIGPLANNot2010-orange)
 - **A Performance Modeling and Optimization Analysis Tool for Sparse Matrix-Vector Multiplication on GPUs**. *Ping Guo, Liqiang Wang, Po Chen, IEEE Transactions on Parallel and Distributed Systems (IEEE Trans Parallel Distrib Syst), 2014* [[pdf](https://www.cs.ucf.edu/~lwang/papers/TPDS-2013.pdf)]
+- **Performance Analysis and Optimization for SpMV on GPU Using Probabilistic Modeling**. *Kenli Li, Wangdong Yang, Keqin Li, IEEE Transactions on Parallel and Distributed Systems (IEEE Trans Parallel Distrib Syst), 2015* [[pdf](http://www.cs.newpaltz.edu/~lik/publications/Wangdong-Yang-IEEE-TPDS-2015.pdf)]
+- **Automatic Tuning of the Sparse Matrix Vector Product on GPUs Based on the ELLR-T Approach**. *Francisco Vázquez, José Jesús Fernández, Ester M. Garzón, Parallel Computing (Parallel Comput.), 2012* [[pdf](http://www.hpca.ual.es/~fvazquez/fp-content/attachs/ParCo2011.pdf)]
+- **Improving the Performance of the Sparse Matrix Vector Product with GPUs**. *Francisco V´azquez, Gloria Ortega, José Jesús Fernández, Ester M. Garzón, IEEE International Conference on Computer and Information Technology (CIT), 2010* [[pdf](https://www.researchgate.net/publication/221193414_Improving_the_Performance_of_the_Sparse_Matrix_Vector_Product_with_GPUs)]
+- 
 
 ### Online Auto-Tuning
 
