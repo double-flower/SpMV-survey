@@ -136,6 +136,11 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ### Parameter Prediction
 
 ### Performance Prediction
+- **Machine Learning Approach for the Predicting Performance of SpMV on GPU**. *Akrem Benatia, Weixing Ji, Yizhuo Wang, Feng Shi, International Conference on Parallel and Distributed Systems (ICPADS), 2016* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7823835)] ![](https://img.shields.io/badge/ICPADS2016-orange)
+- **Sparse matrix partitioning for optimizing SpMV on CPU-GPU heterogeneous platforms**. *Akrem Benatia, Weixing Ji, Yizhuo Wang, Feng Shi, The International Journal of High Performance Computing Applications (Int J High Perform Comput Appl), 2019* [[DOI](https://journals.sagepub.com/doi/abs/10.1177/1094342019886628?journalCode=hpcc)]
+- **Effective Machine Learning Based Format Selection and Performance Modeling for SpMV on GPUs**. *Israt Nisa, Charles Siegel, Aravind Sukumaran Rajam, Abhinav Vishnu, P. Sadayappan, IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), 2018* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8425531)] ![](https://img.shields.io/badge/IPDPSW2018-orange)
+- **Performance Modeling of the Sparse Matrix-Vector Product via Convolutional Neural Networks**. *Maria Barreda, Manuel F. Dolz, M. Asunción Castaño, Pedro Alonso-Jordá, Enrique S. Quintana-Ortí, The Journal of Supercomputing (J SUPERCOMPUT), 2020* [[DOI](https://link.springer.com/article/10.1007/s11227-020-03186-1)]
+- **Convolutional Neural Nets for Estimating the Run Time and Energy Consumption of the Sparse Matrix-Vector Product**. *Maria Barreda, Manuel F Dolz, M Asunción Castaño, The International Journal of High Performance Computing Applications (Int J High Perform Comput Appl), 2021* [[DOI](https://journals.sagepub.com/doi/10.1177/1094342020953196)]
 
 ## Mixed Precision Based Optimization
 
