@@ -125,11 +125,13 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - **Auto-tuning of Sparse Matrix-Vector Multiplication on Graphics Processors**. *Walid Abu-Sufah, Asma Abdel Karim, Supercomputing
 (ISC), 2013* [[pdf](https://link.springer.com/chapter/10.1007/978-3-642-38750-0_12)] ![](https://img.shields.io/badge/ISC2013-orange)
 - **An Effective Approach for Implementing Sparse Matrix-Vector Multiplication on Graphics Processing Units**. *Walid Abu-Sufah, Asma Abdel Karim, IEEE International Conference on High Performance Computing and Communications (HPCC), 2012* [[pdf](https://www.researchgate.net/publication/268800600_On_Implementing_Sparse_Matrix_Multi-Vector_Multiplication_on_GPUs)] ![](https://img.shields.io/badge/PHCC2012-orange)
-- **CRSD: Application Specific Auto-tuning of SpMV for Diagonal Sparse Matrices**. *Xiangzheng Sun, Yunquan Zhang, Ting Wang, Guoping Long, Xianyi Zhang, Yan Li, Euro-Par 2011 Parallel Processing (Euro-Par), 2011* [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-23397-5_32.pdf?pdf=inline%20link)] ![](https://img.shields.io/badge/Euro-orange-Par2011-orange)
-- **yaSpMV: Yet Another SpMV Framework on GPUs**. *Shengen Yan, Chao Li, Yunquan Zhang, Huiyang Zhou, ACM SIGPLAN Notices (ACM SIGPLAN Not), 2014* [[pdf](https://hzhou.wordpress.ncsu.edu/files/2022/12/ppopp_14_2.pdf)] ![](https://img.shields.io/badge/ACMSIGPLANNot2014-orange)
+- **CRSD: Application Specific Auto-tuning of SpMV for Diagonal Sparse Matrices**. *Xiangzheng Sun, Yunquan Zhang, Ting Wang, Guoping Long, Xianyi Zhang, Yan Li, Euro-Par 2011 Parallel Processing (Euro-Par), 2011* [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-23397-5_32.pdf?pdf=inline%20link)] ![](https://img.shields.io/badge/EuroPar2011-orange)
+- **yaSpMV: Yet Another SpMV Framework on GPUs**. *Shengen Yan, Chao Li, Yunquan Zhang, Huiyang Zhou, ACM SIGPLAN Notices (ACM SIGPLAN Not), 2014* [[pdf](https://hzhou.wordpress.ncsu.edu/files/2022/12/ppopp_14_2.pdf)] ![](https://img.shields.io/badge/ACMSIGPLANNot2014-orange) 
 
 ## Machine-Learning Based Algorithm
 ### Format or Algorithm Selection
+- **Reinforcement Learning for Automated Performance Tuning: Initial Evaluation for Sparse Matrix Format Selection**. *Warren Armstrong, Alistair P. Rendell, IEEE International Conference on Cluster Computing (CLUSTER),2008* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4663802)] ![](https://img.shields.io/badge/CLUSTER2008-orange)
+- **SMAT: An Input Adaptive Auto-Tuner for Sparse Matrix-Vector Multiplication**. *Jiajia Li, Guangming Tan, Mingyu Chen, Ninghui Sun, ACM SIGPLAN Notices (ACM SIGPLAN Not), 2013* [[DOI](https://dl.acm.org/doi/10.1145/2499370.2462181)] ![](https://img.shields.io/badge/ACMSIGPLANNot2013-orange) 
 
 ### Parameter Prediction
 
