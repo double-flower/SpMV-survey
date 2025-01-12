@@ -192,6 +192,9 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ### FPGA
 
 ### Processing in Memory
+- **SpaceA: Sparse Matrix Vector Multiplication on Processing-in-Memory Accelerator**. *Xinfeng Xie, Zheng Liang, Peng Gu, Abanti Basak, Lei Deng, Ling Liang, IEEE Symposium on High-Performance Computer Architecture (HPCA), 2021* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9407163)] ![](https://img.shields.io/badge/HPCA2021-orange)
+- **ABC-DIMM: Alleviating the Bottleneck of Communication in DIMM-based Near-Memory Processing with Inter-DIMM Broadcast**. *Weiyi Sun, Zhaoshi Li, Shouyi Yin, Shaojun Wei, Leibo Liu, Annual International Symposium on Computer Architecture (ISCA), 2021* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9499805)] ![](https://img.shields.io/badge/ISCA2021-orange)
+- **SparseP: Towards Efficient Sparse Matrix Vector Multiplication on Real Processing-In-Memory Architectures**. *Christina Giannoula, Ivan Fernandez, Juan Gómez Luna, Nectarios Koziris, Georgios Goumas, Onur Mutlu, Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS), 2022* [[DOI](https://dl.acm.org/doi/10.1145/3508041)] [[code](https://github.com/CMU-SAFARI/SparseP)] ![](https://img.shields.io/badge/POMACS2022-orange)
 
 ### Heterogeneous Platform
 
