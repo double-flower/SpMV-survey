@@ -165,8 +165,20 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ## Mixed Precision Based Optimization
 
 ### Mixed-Precision SpMV
+- **Exploiting variable precision in GMRES**. *Serge Gratton, Ehouarn Simon, David Titley-Peloquin, Philippe Toint, arXiv, 2019* [[pdf](https://arxiv.org/pdf/1907.10550)] ![](https://img.shields.io/badge/Arxiv2019-orange)
+- **Compressed basis {GMRES} on high-performance graphics processing units**. *José I Aliaga, Hartwig Anzt, Thomas Grützmacher, Enrique S. Quintana-Ortí, Andrés E. Tomás, The International Journal of High Performance Computing Applications (Int J High Perform Comput Appl), 2023* [[DOI](https://journals.sagepub.com/doi/full/10.1177/10943420221115140)]
+- **Improving the Performance of the GMRES Method Using Mixed-Precision Techniques**. *Neil Lindquist, Piotr Luszczek, Jack Dongarra, Driving Scientific and Engineering Discoveries Through the Convergence of HPC, Big Data and AI (SMC), 2020* [[DOI](https://link.springer.com/chapter/10.1007/978-3-030-63393-6_4)]
+- **A study of mixed precision strategies for GMRES on GPUs**. *Jennifer A. Loe, Christian A. Glusa, Ichitaro Yamazaki, Erik G. Boman, Sivasankaran Rajamanickam, arXiv, 2021* [[pdf](https://arxiv.org/pdf/2109.01232)] ![](https://img.shields.io/badge/Arxiv2021-orange)
+- **Accelerating the Solution of Linear Systems by Iterative Refinement in Three Precisions**. *Authors: Erin Carson, Nicholas J. Higham, SIAM Journal on Scientific Computing (SIAM J. Sci. Comput), 2018* [[pdf](https://epubs.siam.org/doi/epdf/10.1137/17M1140819)] [[code](https://github.com/eccarson/ir3)]
+- **Mixed-precision in-memory computing**. *Manuel Le Gallo, Abu Sebastian, Roland Mathis, Matteo Manica, Heiner Giefers, Tomas Tuma, Costas Bekas, Alessandro Curioni, Evangelos Eleftheriou, Nature Electronics (Nat. Electron), 2018* [[DOI](https://www.nature.com/articles/s41928-018-0054-8)]
 
 ### Mixed-Precision SpMV
+- **Data-driven Mixed Precision Sparse Matrix Vector Multiplication for GPUs**. *Khalid Ahmad, Hari Sundar, Mary Hall, ACM Transactions on Architecture and Code Optimization (TACO), 2020* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3371275)] ![](https://img.shields.io/badge/TACO2020-orange)
+- **Performance and energy consumption of accurate and mixed-precision linear algebra kernels on GPUs**. *Daichi Mukunoki, Takeshi Ogita, Journal of Computational and Applied Mathematics (J. Comput. Appl. Math), 2020* [[DOI](https://www.sciencedirect.com/science/article/pii/S037704271930706X)]
+- **Mixed and Multi-Precision SpMV for GPUs with Row-wise Precision Selection**. *Erhan Tezcan, Tugba Torun, Fahrican Koşar, Kamer Kaya, Didem Unat, International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), 2022* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9980904)]
+- **Adaptive precision matrix-vector product**. *Stef Graillat, Fabienne Jézéquel, Théo Mary, Roméo Molina, HAL, 2022* [[pdf](https://hal.science/hal-03561193v1/file/rapport.pdf)] ![](https://img.shields.io/badge/Arxiv2022-orange)
+- **Multiple-precision sparse matrix-vector multiplication on GPUs**. *Konstantin Isupov, Journal of Computational Science (J Comput Sci), 2022* [[DOI](https://www.sciencedirect.com/science/article/abs/pii/S1877750322000382)]
+- **A Highly Efficient Implementation of Multiple Precision Sparse Matrix-Vector Multiplication and Its Application to Product-type Krylov Subspace Methods**. *Tomonori Kouya, arXiv, 2014* [[pdf](https://arxiv.org/pdf/1411.2377)] ![](https://img.shields.io/badge/Arxiv2014-orange)
 
 ## Architecture Oriented Optimization
 ### CPU
