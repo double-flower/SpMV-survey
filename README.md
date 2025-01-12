@@ -201,7 +201,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 ### GPU
 
 #### Single GPU
-- **Scalable Parallel Programming with CUDA: Is CUDA the parallel programming model that application developers have been waiting for?**. *John Nickolls, Ian Buck, Michael Garland, Kevin Skadron, ACM Queue (Queue), 2008* [[pdf[(https://dl.acm.org/doi/pdf/10.1145/1365490.1365500)] ![](https://img.shields.io/badge/Queue2008-orange)
+- **Scalable Parallel Programming with CUDA: Is CUDA the parallel programming model that application developers have been waiting for?**. *John Nickolls, Ian Buck, Michael Garland, Kevin Skadron, ACM Queue (Queue), 2008* [[pdf(https://dl.acm.org/doi/pdf/10.1145/1365490.1365500)] ![](https://img.shields.io/badge/Queue2008-orange)
 - **Fast Sparse Matrix-Vector Multiplication on GPUs for Graph Applications**. *Arash Ashari, Naser Sedaghati, John Eisenlohr, Srinivasan Parthasarath, P. Sadayappan, Supercomputing Conference (SC), 2014* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7013051)] ![](https://img.shields.io/badge/SC2014-orange)
 - **Efficient Sparse Matrix-Vector Multiplication on GPUs Using the CSR Storage Format**. *Joseph L. Greathouse, Mayank Daga, Supercomputing Conference (SC), 2014* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7013050)] ![](https://img.shields.io/badge/SC2014-orange)
 - **Structural Agnostic SpMV: Adapting CSR-Adaptive for Irregular Matrices**. *Mayank Daga, Joseph L. Greathouse, International Conference on High Performance Computing (HIPC), 2015* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7397620)] [[code](https://github.com/clMathLibraries/clSPARSE/)] ![](https://img.shields.io/badge/HIPC2015-orange)
