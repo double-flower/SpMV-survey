@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/80114763-25de-4dde-a374-6b056c308d28)<div align="center">
+<div align="center">
   <h2><i>A Systematic Survey of Sparse Matrix Vector Multiplication</i></h2> 
 </div>
 
