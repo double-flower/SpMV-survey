@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/80114763-25de-4dde-a374-6b056c308d28)<div align="center">
   <h2><i>A Systematic Survey of Sparse Matrix Vector Multiplication</i></h2> 
 </div>
 
@@ -22,7 +22,16 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - [Papers](#papers)
   - [Survey](#survey)
   - [Sparse Compression Formats](#sparse-compression-formats)
+    - [Basic Compression Formats](#basic-compression-formats)
+    - [New Compression Formats](#new-compression-formats)
+      - [Regular Slicing](#regular-slicing)
+      - [Regular Blocking](#regular-blocking)
+      - [Irregular Compressing](#irregular-compressing)
+      - [Bit/Byte Compressing](#bit/byte-compressing)
+      - [Hybrid Encoding](#hybrid-encoding)
+      - [Other variants](#other-variants)
   - [Auto-Tuning Based Algorithm](auto-tuning-based-algorithm)
+    - [Offline Auto-Tuning](#offline-auto-tuning)
   - [Machine-Learning Based Algorithm](machine-learning-based-algorithm)
   - [Mixed Precision Based Optimization](#mixed-Precision-based-optimization)
   - [Architecture Oriented Optimization](#architecture-oriented-optimization)
