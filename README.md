@@ -16,7 +16,7 @@
 <sup>2</sup>School of Computer Science and Technology, Beijing Institute of Technology
 </div>
 
-We present a systematic survey of sparse matrix-vector multiplication (SpMV).
+Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with widespread applications in iterative algorithms. Over the past decades, research on SpMV optimization has made remarkable strides, giving rise to various optimization contributions. However, the comprehensive and systematic survey that introduces, analyzes, discusses, and summarizes the SpMV work in recent years is currently lacking. Aiming to fill this gap, this paper compares existing techniques and analyzes their strengths and weaknesses. We conduct an in-depth overview of the important techniques that optimize SpMV on modern architectures, which we specifically classify as classic, auto-tuning, machine learning, and mixed-precision-based optimization. We also elaborate on the hardware-based architectures, including CPU, GPU, and FPGA. We present an experimental evaluation that compares the performance of state-of-the-art SpMV implementations. Based on our findings, we identify several challenges and point out future research directions. This survey intends to provide researchers with a comprehensive understanding of SpMV optimization on modern architectures and guide future work. 
 
 ## Content
 - [Papers](#papers)
