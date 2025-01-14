@@ -20,7 +20,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 
 ## Content
 - [Papers](#papers)
-  - [Survey](#survey)
+  - [SpMV Related Surveys](#spmv-related-surveys)
   - [Sparse Compression Formats](#sparse-compression-formats)
     - [Basic Compression Formats](#basic-compression-formats)
     - [New Compression Formats](#new-compression-formats)
@@ -29,7 +29,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
       - [Irregular Compressing](#irregular-compressing)
       - [Bit/Byte Compressing](#bit/byte-compressing)
       - [Hybrid Encoding](#hybrid-encoding)
-      - [Other variants](#other-variants)
+      - [Other Variants](#other-variants)
   - [Auto-Tuning Based Algorithm](#auto-tuning-based-algorithm)
     - [Offline Auto-Tuning](#offline-auto-tuning)
     - [Online Auto-Tuning](#online-auto-tuning)
@@ -54,7 +54,7 @@ We present a systematic survey of sparse matrix-vector multiplication (SpMV).
 - [Citation](#citation)
 
 
-## Survey
+## SpMV Related Surveys
 - **A Survey on Performance Modelling and Optimization Techniques for SpMV on GPUs**.
    *Ms. Aditi V. Kulkarni, Prof. C. R. Barde. International Journal of Computer Science and Information Technologies (IJCSIT), 2014* [[DOI](https://www.semanticscholar.org/paper/A-Survey-on-Performance-Modelling-and-Optimization-Kulkarni-Barde/eeb465ba9655a5a0c638e15fe2421c5d9a708d46)] [[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=eeb465ba9655a5a0c638e15fe2421c5d9a708d46)] ![](https://img.shields.io/badge/IJCSIT2014-orange)
 - **A Survey of Sparse Matrix-Vector Multiplication Performance on Large Matrices**. *Max Grossman, Christopher Thiele, Mauricio Araya-Polo, Florian Frank, Faruk O. Alpak, Vivek Sarkar. arXiv, 2016* [[DOI](https://arxiv.org/abs/1608.00636)] [[pdf](https://arxiv.org/pdf/1608.00636)] ![](https://img.shields.io/badge/Arxiv2016-orange)
