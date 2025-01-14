@@ -18,7 +18,7 @@
 
 Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with widespread applications in iterative algorithms. Over the past decades, research on SpMV optimization has made remarkable strides, giving rise to various optimization contributions. However, the comprehensive and systematic survey that introduces, analyzes, discusses, and summarizes the SpMV work in recent years is currently lacking. Aiming to fill this gap, this paper compares existing techniques and analyzes their strengths and weaknesses. We conduct an in-depth overview of the important techniques that optimize SpMV on modern architectures, which we specifically classify as classic, auto-tuning, machine learning, and mixed-precision-based optimization. We also elaborate on the hardware-based architectures, including CPU, GPU, and FPGA. We present an experimental evaluation that compares the performance of state-of-the-art SpMV implementations. Based on our findings, we identify several challenges and point out future research directions. This survey intends to provide researchers with a comprehensive understanding of SpMV optimization on modern architectures and guide future work. 
 
-## Content
+# Content
 - [Papers](#papers)
   - [SpMV Related Surveys](#spmv-related-surveys)
   - [Sparse Compression Formats](#sparse-compression-formats)
@@ -54,6 +54,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 - [Citation](#citation)
 
 
+# Papers
 ## SpMV Related Surveys
 - **A Survey on Performance Modelling and Optimization Techniques for SpMV on GPUs**.
    *Aditi V. Kulkarni, C. R. Barde. International Journal of Computer Science and Information Technologies (IJCSIT), 2014* [[DOI](https://www.semanticscholar.org/paper/A-Survey-on-Performance-Modelling-and-Optimization-Kulkarni-Barde/eeb465ba9655a5a0c638e15fe2421c5d9a708d46)] [[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=eeb465ba9655a5a0c638e15fe2421c5d9a708d46)] ![](https://img.shields.io/badge/IJCSIT2014-orange)
@@ -326,3 +327,14 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 - **ZAKI+: A Machine Learning Based Process Mapping Tool for SpMV Computations on Distributed Memory Architectures**. *Sardar Usman, Rashid Mehmood, Iyad Katib, Aiiad Albeshri, IEEE Access, 2019* [[DOI](https://ieeexplore.ieee.org/document/8737900)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8737900)] ![](https://img.shields.io/badge/IEEEAccess2019-orange)
 - **Developing a Multi-GPU-Enabled Preconditioned GMRES with Inexact Triangular Solves for Block Sparse Matrices**. *Wenpeng Ma, Yiwen Hu, Wu Yuan, Xiazhen Liu, Mathematical Problems in Engineering (MPE), 2021* [[DOI](https://onlinelibrary.wiley.com/doi/10.1155/2021/6804723)] [[pdf](https://onlinelibrary.wiley.com/doi/epdf/10.1155/2021/6804723)] ![](https://img.shields.io/badge/MPE2021-orange)
 
+# Citation
+
+@misc{gao2024spmvsurvey,<br>
+     title={A Systematic Literature Survey of Sparse Matrix-Vector Multiplication}, <br>
+     author={Jianhua Gao and Bingjie Liu and Weixing Ji and Hua Huang},<br>
+     year={2024},<br>
+     eprint={2404.06047},<br>
+     archivePrefix={arXiv},<br>
+     primaryClass={cs.DC},<br>
+     url={https://arxiv.org/abs/2404.06047}, <br>
+}
