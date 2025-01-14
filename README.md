@@ -44,7 +44,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
     - [CPU](#CPU)
     - [GPU](#GPU)
       - [Single GPU](#single-GPU)
-      - [Multiple GPU](#multiple-GPU)
+      - [Multiple GPUs](#multiple-GPUs)
     - [FPGA](#FPGA)
     - [Processing in Memory](#processing-in-memory)
     - [Heterogeneous Platform](#heterogeneous-platform)
@@ -254,7 +254,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 - **Auto-Tuning CUDA Parameters for Sparse Matrix-Vector Multiplication on GPUs**. *Ping Guo, Liqiang Wang, International Conference on Computational and Information Sciences (ICCIS), 2010* [[DOI](https://ieeexplore.ieee.org/abstract/document/5709485)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5709485)] ![](https://img.shields.io/badge/ICCIS2010-orange)
 - **Automatically Generating and Tuning GPU Code for Sparse Matrix-Vector Multiplication from a High-Level Representation**. *Dominik Grewe, Anton Lokhmotov, Proceedings of the Fourth Workshop on General Purpose Processing on Graphics Processing Units (GPGPU), 2011* [[DOI](https://dl.acm.org/doi/10.1145/1964179.1964196)] [[pdf](https://ece.northeastern.edu/groups/nucar/GPGPU4/files/grewe.pdf)] ![](https://img.shields.io/badge/GPGPU2011-orange)
   
-#### Multiple GPU
+#### Multiple GPUs
 - **Fast Conjugate Gradients with Multiple GPUs**. *Ali Cevahir, Akira Nukada, Satoshi Matsuoka, Computational Science (ICCS), 2009* [[DOI](https://link.springer.com/chapter/10.1007/978-3-642-01970-8_90)] [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-01970-8_90.pdf)] ![](https://img.shields.io/badge/ICCS2009-orange)
 - **Performance Optimization for SpMV on Multi-GPU Systems Using Threads and Multiple Streams**. *Ping Guo, Changjiang Zhang, International Symposium on Computer Architecture and High Performance Computing Workshops (SBAC-PADW), 2016* [[DOI](https://ieeexplore.ieee.org/document/7803698)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7803698)] ![](https://img.shields.io/badge/SBACPADW2016-orange)
 - **Multi-GPU Implementation of the Uniformization Method for Solving Markov Models**. *Marek Karwacki, Beata Bylina, Jarosław Bylina, Federated Conference on Computer Science and Information Systems (FedCSIS), 2012* [[DOI](https://ieeexplore.ieee.org/document/6354457)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6354457)] ![](https://img.shields.io/badge/FedCSIS2012-orange)
