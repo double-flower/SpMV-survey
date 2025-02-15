@@ -50,6 +50,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
     - [Processing in Memory](#processing-in-memory)
     - [Heterogeneous Platform](#heterogeneous-platform)
     - [Distributed Platform](#distributed-platform)
+- [Sparse Libraries](#sparse-libraries)
 
 # Citation
 
@@ -336,3 +337,11 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 - **ZAKI: A Smart Method and Tool for Automatic Performance Optimization of Parallel SpMV Computations on Distributed Memory Machines**. *Sardar Usman, Rashid Mehmood, Iyad Katib, Aiiad Albeshri, Saleh M. Altowaijri, Mobile Networks and Applications (MONET), 2019* [[DOI](https://link.springer.com/article/10.1007/s11036-019-01318-3)] ![](https://img.shields.io/badge/MONET2019-orange)
 - **ZAKI+: A Machine Learning Based Process Mapping Tool for SpMV Computations on Distributed Memory Architectures**. *Sardar Usman, Rashid Mehmood, Iyad Katib, Aiiad Albeshri, IEEE Access, 2019* [[DOI](https://ieeexplore.ieee.org/document/8737900)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8737900)] ![](https://img.shields.io/badge/IEEEAccess2019-orange)
 - **Developing a Multi-GPU-Enabled Preconditioned GMRES with Inexact Triangular Solves for Block Sparse Matrices**. *Wenpeng Ma, Yiwen Hu, Wu Yuan, Xiazhen Liu, Mathematical Problems in Engineering (MPE), 2021* [[DOI](https://onlinelibrary.wiley.com/doi/10.1155/2021/6804723)] [[pdf](https://onlinelibrary.wiley.com/doi/epdf/10.1155/2021/6804723)] ![](https://img.shields.io/badge/MPE2021-orange)
+
+# Sparse Libraries
+- CUSP
+- cuSPARSE
+- MAGMA
+- GINKGO
+- hiSPARSE
+- MKL
