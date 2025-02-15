@@ -19,6 +19,7 @@
 Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with widespread applications in iterative algorithms. Over the past decades, research on SpMV optimization has made remarkable strides, giving rise to various optimization contributions. However, the comprehensive and systematic survey that introduces, analyzes, discusses, and summarizes the SpMV work in recent years is currently lacking. Aiming to fill this gap, this paper compares existing techniques and analyzes their strengths and weaknesses. We conduct an in-depth overview of the important techniques that optimize SpMV on modern architectures, which we specifically classify as classic, auto-tuning, machine learning, and mixed-precision-based optimization. We also elaborate on the hardware-based architectures, including CPU, GPU, and FPGA. We present an experimental evaluation that compares the performance of state-of-the-art SpMV implementations. Based on our findings, we identify several challenges and point out future research directions. This survey intends to provide researchers with a comprehensive understanding of SpMV optimization on modern architectures and guide future work. 
 
 # Content
+- [Citation](#citation)
 - [Papers](#papers)
   - [SpMV Related Surveys](#spmv-related-surveys)
   - [Sparse Compression Formats](#sparse-compression-formats)
@@ -27,7 +28,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
       - [Regular Slicing](#regular-slicing)
       - [Regular Blocking](#regular-blocking)
       - [Irregular Compressing](#irregular-compressing)
-      - [Bit/Byte Compressing](#bit/byte-compressing)
+      - [Bit or Byte Compressing](#bit-or-byte-compressing)
       - [Hybrid Encoding](#hybrid-encoding)
       - [Other Variants](#other-variants)
   - [Auto-Tuning Based Algorithm](#auto-tuning-based-algorithm)
@@ -37,21 +38,30 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
     - [Format or Algorithm Selection](#format-or-algorithm-selection)
     - [Parameter Prediction](#parameter-prediction)
     - [Performance Prediction](#performance-prediction)
-  - [Mixed Precision Based Optimization](#mixed-Precision-based-optimization)
+  - [Mixed Precision Based Optimization](#mixed-precision-based-optimization)
     - [Mixed-Precision Iterative Solving Algorithms](#mixed-precision-iterative-solving-algorithms)
-    - [Mixed-Precision SpMV](#mixed-precision-spMV)
+    - [Mixed-Precision SpMV](#mixed-precision-spmv)
   - [Architecture Oriented Optimization](#architecture-oriented-optimization)
-    - [CPU](#CPU)
-    - [GPU](#GPU)
-      - [Single GPU](#single-GPU)
-      - [Multiple GPUs](#multiple-GPUs)
-    - [FPGA](#FPGA)
+    - [CPU](#cpu)
+    - [GPU](#gpu)
+      - [Single GPU](#single-gpu)
+      - [Multiple GPUs](#multiple-gpus)
+    - [FPGA](#fpga)
     - [Processing in Memory](#processing-in-memory)
     - [Heterogeneous Platform](#heterogeneous-platform)
     - [Distributed Platform](#distributed-platform)
 
-  
-- [Citation](#citation)
+# Citation
+
+@misc{gao2024spmvsurvey,<br>
+&nbsp;&nbsp;&nbsp;&nbsp; title={A Systematic Literature Survey of Sparse Matrix-Vector Multiplication}, <br>
+&nbsp;&nbsp;&nbsp;&nbsp; author={Jianhua Gao and Bingjie Liu and Weixing Ji and Hua Huang},<br>
+&nbsp;&nbsp;&nbsp;&nbsp; year={2024},<br>
+&nbsp;&nbsp;&nbsp;&nbsp; eprint={2404.06047},<br>
+&nbsp;&nbsp;&nbsp;&nbsp; archivePrefix={arXiv},<br>
+&nbsp;&nbsp;&nbsp;&nbsp; primaryClass={cs.DC},<br>
+&nbsp;&nbsp;&nbsp;&nbsp; url={https://arxiv.org/abs/2404.06047}, <br>
+}
 
 
 # Papers
@@ -99,7 +109,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 - **CSX: An Extended Compression Format for SpMV on Shared Memory Systems**. *Kornilios Kourtis, Vasileios Karakasis, Georgios Goumas, Nectarios Koziris, ACM SIGPLAN Notices (ACM SIGPLAN Not), 2011* [[DOI](https://dl.acm.org/doi/abs/10.1145/2038037.1941587)] ![](https://img.shields.io/badge/ACMSIGPLANNot2011-orange)
 - **ClSpMV: A Cross-Platform OpenCL SpMV Framework on GPUs**. *Bor-Yiing Su, Kurt Keutzer,Proceedings of the 26th ACM international conference on Supercomputing (ICS) ,2012* [[DOI](https://dl.acm.org/doi/10.1145/2304576.2304624)] [[pdf](https://parlab.eecs.berkeley.edu/sites/all/parlab/files/clspMV-%20Keutzer.pdf)] ![](https://img.shields.io/badge/ICS2012-orange)
 
-#### Bit/Byte Compressing
+#### Bit or Byte Compressing
 - **Accelerating Sparse Matrix Computations Via Data Compression**. *Jeremiah Willcock, Andrew Lumsdaine, Proceedings of the 20th annual international conference on Supercomputing (ICS), 2006* [[DOI](https://dl.acm.org/doi/abs/10.1145/1183401.1183444)] ![](https://img.shields.io/badge/ICS2006-orange)
 - **Optimizing sparse matrix-vector multiplication using index and value compression**. *Kornilios Kourtis, Georgios Goumas, Nectarios Koziris, Proceedings of the 5th conference on Computing frontiers (CF),2008* [[DOI](https://dl.acm.org/doi/10.1145/1366230.1366244)] [[pdf](http://www.cslab.ece.ntua.gr/~nkoziris/papers/cf08-spmv-kkourt.pdf)] ![](https://img.shields.io/badge/CF2008-orange)
 - **A Family of Bit-Representation-Optimized Formats for Fast Sparse Matrix-Vector Multiplication on the GPU**. *Wai Teng Tang, Wen Jun Tan, Rick Siow Mong Goh, Stephen John Turner, Weng-Fai Wong, IEEE Transactions on Parallel and Distributed Systems (TPDS), 2015* [[DOI](https://ieeexplore.ieee.org/document/6895301)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6895301)] ![](https://img.shields.io/badge/TPDS2015-orange)
@@ -188,7 +198,7 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 
 ## Mixed Precision Based Optimization
 
-### Mixed-Precision SpMV
+### Mixed-Precision Iterative Solving Algorithms
 - **Exploiting Variable Precision in GMRES**. *Serge Gratton, Ehouarn Simon, David Titley-Peloquin, Philippe Toint, arXiv, 2019* [[DOI](https://arxiv.org/abs/1907.10550)] [[pdf](https://arxiv.org/pdf/1907.10550)] ![](https://img.shields.io/badge/Arxiv2019-orange)
 - **Compressed Basis GMRES on High-Performance Graphics Processing Units**. *José I Aliaga, Hartwig Anzt, Thomas Grützmacher, Enrique S. Quintana-Ortí, Andrés E. Tomás, The International Journal of High Performance Computing Applications (IJHPCA), 2023* [[DOI](https://journals.sagepub.com/doi/full/10.1177/10943420221115140)] ![](https://img.shields.io/badge/IJHPCA2023-orange)
 - **Improving the Performance of the GMRES Method Using Mixed-Precision Techniques**. *Neil Lindquist, Piotr Luszczek, Jack Dongarra, Driving Scientific and Engineering Discoveries Through the Convergence of HPC, Big Data and AI (SMC), 2020* [[DOI](https://link.springer.com/chapter/10.1007/978-3-030-63393-6_4)] ![](https://img.shields.io/badge/SMC2020-orange)
@@ -326,15 +336,3 @@ Sparse matrix-vector multiplication (SpMV) is a crucial computing kernel with wi
 - **ZAKI: A Smart Method and Tool for Automatic Performance Optimization of Parallel SpMV Computations on Distributed Memory Machines**. *Sardar Usman, Rashid Mehmood, Iyad Katib, Aiiad Albeshri, Saleh M. Altowaijri, Mobile Networks and Applications (MONET), 2019* [[DOI](https://link.springer.com/article/10.1007/s11036-019-01318-3)] ![](https://img.shields.io/badge/MONET2019-orange)
 - **ZAKI+: A Machine Learning Based Process Mapping Tool for SpMV Computations on Distributed Memory Architectures**. *Sardar Usman, Rashid Mehmood, Iyad Katib, Aiiad Albeshri, IEEE Access, 2019* [[DOI](https://ieeexplore.ieee.org/document/8737900)] [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8737900)] ![](https://img.shields.io/badge/IEEEAccess2019-orange)
 - **Developing a Multi-GPU-Enabled Preconditioned GMRES with Inexact Triangular Solves for Block Sparse Matrices**. *Wenpeng Ma, Yiwen Hu, Wu Yuan, Xiazhen Liu, Mathematical Problems in Engineering (MPE), 2021* [[DOI](https://onlinelibrary.wiley.com/doi/10.1155/2021/6804723)] [[pdf](https://onlinelibrary.wiley.com/doi/epdf/10.1155/2021/6804723)] ![](https://img.shields.io/badge/MPE2021-orange)
-
-# Citation
-
-@misc{gao2024spmvsurvey,<br>
-     title={A Systematic Literature Survey of Sparse Matrix-Vector Multiplication}, <br>
-     author={Jianhua Gao and Bingjie Liu and Weixing Ji and Hua Huang},<br>
-     year={2024},<br>
-     eprint={2404.06047},<br>
-     archivePrefix={arXiv},<br>
-     primaryClass={cs.DC},<br>
-     url={https://arxiv.org/abs/2404.06047}, <br>
-}
